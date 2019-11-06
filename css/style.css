@@ -3,44 +3,52 @@ body{
 }
 
 .container{
-    position: fixed;
-          max-width: 300px;
+    display: flex;
+    height: 400px;
+    width: 300px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 8px -10px 15px -6px rgba(0,0,0,0.82);
+    border-radius: 10px;
 
-        text-align: center;
-        background-color: white;
-        margin-top: 40px;
-        margin-left: 20px;
 
-        padding: 10px;
 }
 
 .profileImage{
-    margin-top: -25px;
-    width: 200px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
+    margin-top: -30px;
+    text-align: center;
+    align-content: center;
     overflow: hidden;
+    border-radius: 100%;
 }
 
 .profileImage img{
 
-    width: 50px;
+    width: 100px;
 
 }
 
 .input{
-    padding: 5px;
-    height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    text-align: center;
+    height: 100px;
+    box-sizing: border-box;
+    border: 10px;
+
 
 }
 
 .bottom {
 
-    width: 100%;
+
 }
 
 
