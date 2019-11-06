@@ -1,0 +1,60 @@
+body{
+    background-color: coral;
+}
+
+.container{
+    position: fixed;
+          max-width: 300px;
+
+        text-align: center;
+        background-color: white;
+        margin-top: 40px;
+        margin-left: 20px;
+
+        padding: 10px;
+}
+
+.profileImage{
+    margin-top: -25px;
+    width: 200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profileImage img{
+
+    width: 50px;
+
+}
+
+.input{
+    padding: 5px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.bottom {
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+input:focus{
+    border: 2px solid dodgerblue;
+    box-sizing: border-box;
+}
+input:checked{
+    border: 2px solid red;
+}
